@@ -1,5 +1,5 @@
 1. What is the URL of this project on your student web-server?
-http://students.washington.edu/rlmendel/info343/portfolio/
+http://students.washington.edu/rlmendel/info343A/portfolio/
 
 2. Did you receive help from any other sources (classmates, etc.)? If so, please list who.
 No, just from google.
