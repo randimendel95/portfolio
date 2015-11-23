@@ -41,6 +41,16 @@
 	background-repeat:no-repeat;
 }
 
+.projectsTitle{
+	color:teal;
+	text-align:center;
+}
+
+.projectImg {
+	width: 400px;
+	height:auto;
+}
+
 .myfooter {
 	background-color:teal;
 	color:white;

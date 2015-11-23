@@ -1,16 +1,19 @@
 <div class="container">
-	<div class="well well-sm">
+	<div class="projectsTitle well well-sm">
 		<h2>My {{course}} Projects</h2>
 		<p> {{projectsIntro}} </p>
 	</div>
-	<p class="well well-sm">{{projects[0]}}</p>
 
-<!--code that would make ng-repeat to show Title, link and description of each project. Does not run :(
-
-	<div ng-repeat="project in {{projects[0]}}">
-		<h2>project.Title</h2>
-		<a href="project.siteURL">project.siteURL</a>
-		<p>project.description</p>
+	<div class="well well-sm" ng-repeat="project in projects[0]">
+		<div class="row">
+			<div class="col-sm-6">
+				<image src="{{project.image}}" class="projectImg"></image>
+			</div>
+		<div class="col-sm-6">
+			<h2>{{project.Title}}</h2>
+			<p>Click to View the <a href="{{project.SiteURL}}">{{project.Title}} Site</a></p>
+			<p>{{project.Description}}</p>
+		</div>
 	</div>
--->
+
 </div>

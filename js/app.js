@@ -1,5 +1,4 @@
 var myApp = angular.module('myApp', ['ui.router'])
-//var portfolioCtrl = myApp.controller('portfolioCtrl', function($scope, $http) {
 
 .config(function($stateProvider) {
 	$stateProvider
