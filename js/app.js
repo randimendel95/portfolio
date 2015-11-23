@@ -33,13 +33,13 @@ var myApp = angular.module('myApp', ['ui.router'])
 .controller('ProjectsController',function($scope){
 	$scope.projectsIntro="These are the projects I have created for my info 343 course! I can't wait to continue adding to my experience and my portfolio as I continue any work in web programming!";
 	$scope.course = "Info 343A: Client-Side Web Development"
-
-	$scope.projects = $.getJSON('data/projectInfo.json',function(data){
+	$scope.projects = [];
+	$.getJSON('data/projectInfo.json',function(data){
 		console.log(data);
-		return data;
+		$scope.projects.push(data);
 	});
 
-	console.log($scope.projects);
+	console.log($scope.projects[0]);
 	
 })
 .controller('AboutController',function($scope){
