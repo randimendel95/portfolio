@@ -12,6 +12,7 @@
     	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
    		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.js"></script>
+    	<script src="js/papaparse.js"></script>
 
     	<!-- Add ui-router library here -->
     	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
@@ -23,20 +24,28 @@
 
 	<body>
 
-		<div>
-			<header>
-
+		<div class="headbar">
+			<div class="container header">
+				<h1 class="portfolioTitle">Randi Mendel Portfolio</h1>
 				<a class="btn btn-default" ui-sref="home">Home</a>
 				<a class="btn btn-default" ui-sref="projects">Projects</a>
 				<a class="btn btn-default" ui-sref="about">About</a>
-			</header>
+				<a class="btn btn-default" ui-sref="contactme">Contact Me</a>
+				
+			</div>
+		</div>
 
+		<div class="pageBody">
 			<div class="container">
 				<div ui-view></div>
 			</div>
-			<footer>
-
-			</footer>
+			<div class="myfooter">
+				<div class="container row">
+					<div class="container col-xs-4">Randi Mendel</div>
+					<div class="container col-xs-4">Info 343 Page</div>
+					<div class="container col-xs-4">randi.mendel@yahoo.com</div>
+				</div>
+			</div>
 		</div>
 	</body>
 </html>

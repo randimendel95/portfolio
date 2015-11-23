@@ -1,3 +1,48 @@
-.headBar {
-	background-color: gray;
+.headbar {
+	padding-bottom: 30px;
+	font-color:white;
+	background-image:url("http://wallpaperswa.com/thumbnails/detail/20140429/black%20white%20multicolor%20design%20gray%20lines%20mind%20simple_wallpaperswa.com_38.jpg");
+	background-size: 100%;
 }
+
+.header {
+	color:white;
+	text-align:center;
+}
+
+.header a {
+	margin: 20px;
+}
+
+.portfolioTitle {
+	font-size:50px;
+}
+
+.btn {
+	border:5px solid teal;
+}
+.well {
+	margin:10px;
+	border:5px solid teal;
+}
+
+.aboutheading{
+	color:teal;
+	font-weight:bold;
+}
+
+.myselfphoto {
+	border:5px solid teal;
+}
+
+.pageBody {
+	background-image:Url("http://bjc.berkeley.edu/bjc-r/img/sys/CompKeyboard.jpg");
+	background-size:100%;
+	background-repeat:no-repeat;
+}
+
+.myfooter {
+	background-color:teal;
+	color:white;
+}
+
